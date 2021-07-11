@@ -29,6 +29,7 @@ nav img{
 
 h2 {
     color: #fff;
+    font-size: 18px;
 }
 
 .nav-links{
@@ -70,4 +71,15 @@ font-size: 13px;
     color: #fff;
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 24px;
+}
+
+.text-box p{
+    font-size: 15px;
 }
