@@ -27,6 +27,10 @@ nav img{
 
 }
 
+h2 {
+    color: #fff;
+}
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -54,9 +58,16 @@ font-size: 13px;
     background: #AAFF00;
     display: block;
     margin: auto;
+    transition: 0.5s;
 
 }
+.nav-links ul li:hover::after{
+    width: 100%;
+}
 
-h1 {
+.text-box{
+    width: 90%;
     color: #fff;
+    position: absolute;
+    top: 50%;
 }
