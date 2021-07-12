@@ -101,11 +101,24 @@ cursor: pointer;
 
 
 }
-.login-box{
 
-    border: 1px solid;
-    margin: 50px 0;
-    padding: 10px 20px;
-    
+.login-box{
+text-align: center;
+}
+
+.login-form input{
+width: 20%;
+padding: 10px;
+margin: 15px 0;
+box-sizing: border-box;
+border: none;
+outline: none;
+background: #AAFF00;
+
+}
+
+.login-box a{
+    color: #fff;
+    text-decoration: none;
 
 }
