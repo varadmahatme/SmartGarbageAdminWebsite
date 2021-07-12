@@ -83,3 +83,21 @@ font-size: 13px;
 .text-box p{
     font-size: 15px;
 }
+.best-btn{
+display: inline;
+text-decoration: none;
+color: #fff;
+border: 1px solid #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor: pointer;
+}
+.best-btn:hover{
+    border: 1px solid #AAFF00;
+    background: #AAFF00;
+    transition: 1s;
+
+
+}
